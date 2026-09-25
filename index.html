@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacorb Morgan | AI full-stack Engineer</title>
+  <meta name="description" content="Personal portfolio of Your Name — software engineer and developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#home" class="logo">Jacorb Morgan</a>
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content reveal">
+          <div class="hero-small">Hello, I'm</div>
+          <h1>Jacorb Morgan<span>!</span></h1>
+          <p class="hero-description">Full Stack, AI engineer passionate about building useful, scalable, and beautiful
+            digital experiences.</p>
+          <div class="buttons">
+            <a href="#projects" class="button button-primary">View My Work</a>
+            <a href="#contact" class="button button-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal"><img src="assets/profile.jfif" alt="Profile photo"
+              onerror="this.style.display='none';this.parentElement.classList.add('placeholder');this.parentElement.textContent='👨‍💻';">
+          </div>
+          <div class="reveal">
+            <div class="section-label">About Me</div>
+            <h2 class="section-title">Turning ideas into reality.</h2>
+            <div class="about-text">
+              <p>I'm a software engineer who enjoys solving complex problems and creating applications that have a
+                real-world impact.</p>
+              <p>I specialize in full-stack development, cloud technologies, APIs, and modern JavaScript frameworks.</p>
+              <p>Outside of programming, I enjoy learning new technologies, working on side projects, and exploring new
+                ideas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="background" class="background">
+      <div class="container">
+        <div class="section-label">Background</div>
+        <h2 class="section-title">My background.</h2>
+        <div class="tabs">
+          <button class="tab active" data-tab="skills">Skills</button>
+          <button class="tab" data-tab="experience">Experience</button>
+          <button class="tab" data-tab="education">Education</button>
+        </div>
+
+        <div id="skills" class="tab-content active">
+          <div class="skills-grid">
+            <div class="skill-box">
+              <h3>Languages</h3>
+              <p>JavaScript, TypeScript, Java, Python, SQL, HTML, CSS</p>
+            </div>
+            <div class="skill-box">
+              <h3>Frameworks</h3>
+              <p>React, Node.js, Spring Boot, Express, Next.js</p>
+            </div>
+            <div class="skill-box">
+              <h3>AI & ML</h3>
+              <p>AI engineering, Prompt engineering, RAG, Fine-tuning</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="experience" class="tab-content">
+          <div class="background-item">
+            <div class="item-header">
+              <div>
+                <div class="item-title">Software Engineer</div>
+                <div class="item-company">Techtanium</div>
+              </div>
+              <div class="item-date">2024 — 2025</div>
+            </div>
+            <div class="item-description">
+              <ul>
+                <li>Developed enterprise software and backend services.</li>
+                <li>Worked on API integrations and database systems.</li>
+                <li>Participated in application modernization projects.</li>
+                <li>Collaborated with developers and business teams.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="background-item">
+            <div class="item-header">
+              <div>
+                <div class="item-title">Senior Software Engineer</div>
+                <div class="item-company">Singsys Pte Ltd</div>
+              </div>
+              <div class="item-date">2022 — 2024</div>
+            </div>
+            <div class="item-description">
+              <ul>
+                <li>Developed web for business clients.</li>
+                <li>Built and maintained REST APIs.</li>
+                <li>Worked with databases and third-party integrations.</li>
+                <li>Participated in testing, debugging, and deployment.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="tab-content">
+          <div class="background-item">
+            <div class="item-header">
+              <div>
+                <div class="item-title">Bachelor of Science in Information and Communication Technology</div>
+                <div class="item-company">Singapore University of Social Sciences (SUSS) — Singapore</div>
+              </div>
+              <div class="item-date">2014–2018</div>
+            </div>
+            <div class="item-description">Relevant Coursework: Data Structures & Algorithms, Software Engineering,
+              Computer Systems, Machine Learning, Artificial Intelligence.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="projects-header">
+          <div>
+            <div class="section-label">Portfolio</div>
+            <h2 class="section-title">My Projects</h2>
+          </div>
+          <p class="section-description">A selection of projects I've built, designed, and experimented with.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-image"><img src="assets/project-1.jpg" alt="Project 1"
+                onerror="this.style.display='none';this.parentElement.textContent='🍳';"></div>
+            <div class="project-content">
+              <h3>Fitness SaaS Platform (Workout + Subscription System)</h3>
+              <p class="project-description">A full fitness SaaS platform for trainers and users to manage workout
+                plans, subscriptions, and progress tracking.</p>
+              <div class="tech-stack"><span class="tech">React</span><span class="tech">Java</span><span
+                  class="tech">Spring Boot</span><span class="tech">MySQL</span><span class="tech">Node.js</span></div>
+            </div>
+          </article>
+          <article class="project reveal">
+            <div class="project-image"><img src="assets/project-2.jpg" alt="Project 2"
+                onerror="this.style.display='none';this.parentElement.textContent='🌎';"></div>
+            <div class="project-content">
+              <h3>AI Web & Mobile Platform Chatbot, ML Recommendations, LLM, NLP</h3>
+              <p class="project-description">This is developed AI-integrated web and mobile platform from Figma designs, implemented ML-driven recommendations for personalized user experience, built dynamic content rendering using smart AI-powered components</p>
+              <div class="tech-stack"><span class="tech">Chatbot</span><span class="tech">Chatbot Prompt</span><span
+                  class="tech">LLM Prompt</span><span class="tech">AI Agent Development</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="reveal">
+            <div class="section-label">Contact</div>
+            <h2 class="section-title">Let's work together.</h2>
+            <p class="section-description">Have a project, opportunity, or just want to say hello? Feel free to reach
+              out.</p>
+            <div class="contact-info">
+              <a href="mailto:upworkk838@gmail.com">✉ upworkk838@gmail.com</a>
+              <!-- <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a> -->
+            </div>
+          </div>
+          <form action="#" method="POST"
+            onsubmit="event.preventDefault(); alert('Connect this form to your preferred form service before publishing.');">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="button button-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Your Name. All rights reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
